@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N 플레이스 키워드 분석</title>
+    <!-- Noto Sans KR 웹폰트 연결 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 메인 카드 -->
+    <div class="app-card">
+      <!-- 헤더 -->
+      <header class="header">
+        <h1 class="logo">N 플레이스 키워드 분석</h1>
+      </header>
+      <!-- 페이지 소개 -->
+      <main class="content">
+        <div class="title-group">
+          <h2 class="title">내 매장 순위를<br />확인해보세요.</h2>
+          <p class="description">
+            네이버 플레이스 URL 하나로 여러 키워드별 순위와 월간 검색량을
+            확인하세요.
+          </p>
+        </div>
+        <!-- 검색창 박스 -->
+        <div class="input-card">
+          <div class="input-group">
+            <label for="place-url">네이버 플레이스 URL</label>
+            <input
+              type="text"
+              id="place-url"
+              placeholder="https://naver.me/..."
+            />
+            <span class="help-text"
+              >공유 URL과 플레이스 URL을 모두 사용할 수 있어요.</span
+            >
+          </div>
+          <button type="button" class="btn-submit">무료로 분석하기</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
