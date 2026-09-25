@@ -18,15 +18,6 @@ body {
   color: #191919;
 }
 
-.app-card {
-  width: 100%;
-  max-width: 500px;
-  min-height: 100vh;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-}
-
 .header {
   padding: 1.25rem 1.5rem;
   border-bottom: 1px solid #f1f3f5;
